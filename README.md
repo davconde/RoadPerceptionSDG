@@ -9,7 +9,9 @@ Road zone Synthetic Data Generator based on Unity Perception
 git clone https://github.com/davconde/RoadPerceptionSDG.git
 ```
 
-- Open this project, download the [Objects.unitypackage](https://universidadevigo-my.sharepoint.com/:u:/g/personal/david_conde_morales_uvigo_gal/EabQfLdzXyFJsSUp8SCEzuoBwZcrtHm5NMMdSmxQvJeXwA?e=THrGYh) and import it in `Assets/Objects`.
+- Open this project, download the [Objects.unitypackage](https://universidadevigo-my.sharepoint.com/:u:/g/personal/david_conde_morales_uvigo_gal/EabQfLdzXyFJsSUp8SCEzuoBwZcrtHm5NMMdSmxQvJeXwA?e=THrGYh) and import it selecting `Assets/Import Package/Custom Package...` in toolbar.
+
+- Open the `Scenes/SDG` scene and restart Unity to reload new script references imported from package.
 
 ## Set Up
 - For adding new objects or classes, take as example the subdirectories in `Assets/Objects/Foreground`. Every Prefab added in the respective directory must be defined as a Prefab Variant with `Assets/Object/Foreground/ForegroundObject`defined as its base.
